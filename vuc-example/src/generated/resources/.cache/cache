@@ -1,0 +1,8 @@
+36322f7918fd0077feddbf7db280c270efb80ea1 assets/examplevuc/blockstates/syed_ore.json
+5312db9cd96c1b15656910a0cfe89047fa29be1e assets/examplevuc/lang/en_us.json
+c3666c847c980e10872897791c42bbca04074ee5 assets/examplevuc/models/block/syed_ore.json
+299eb332660024c56838252417f219f2642f270b assets/examplevuc/models/item/syed_ore.json
+840f19168d6dbcbe5414306c8c4b650dd013d24f data/forge/tags/blocks/ores.json
+840f19168d6dbcbe5414306c8c4b650dd013d24f data/forge/tags/items/ores.json
+840f19168d6dbcbe5414306c8c4b650dd013d24f data/minecraft/tags/blocks/mineable/hoe.json
+840f19168d6dbcbe5414306c8c4b650dd013d24f data/minecraft/tags/blocks/needs_diamond_tool.json
