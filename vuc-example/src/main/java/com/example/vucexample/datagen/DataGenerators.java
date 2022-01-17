@@ -14,7 +14,7 @@ public class DataGenerators {
         DataGenerator generator = event.getGenerator();
         if (event.includeServer()) {
             generator.addProvider(new ExvucRecipes(generator));
-//            generator.addProvider(new ExvucLootTables(generator));
+            generator.addProvider(new ExvucLootTables(generator));
             ExvucBlockTags blockTags = new ExvucBlockTags(generator, event.getExistingFileHelper());
             generator.addProvider(blockTags);
             generator.addProvider(new ExvucItemTags(generator, blockTags, event.getExistingFileHelper()));

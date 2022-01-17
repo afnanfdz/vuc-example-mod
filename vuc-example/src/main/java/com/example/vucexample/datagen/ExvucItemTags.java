@@ -16,6 +16,10 @@ public class ExvucItemTags extends ItemTagsProvider {
     @Override
     protected void addTags() {
         tag(Tags.Items.ORES)
-                .add(Registration.SYED_ORE_ITEM.get());
+                .add(Registration.SYED_ORE_OVERWORLD_ITEM.get());
+        tag(Tags.Items.INGOTS)
+                .add(Registration.SYED_INGOT.get());
+        tag(Registration.SYED_ORE_ITEM)
+                .add(Registration.SYED_ORE_OVERWORLD_ITEM.get());
     }
 }

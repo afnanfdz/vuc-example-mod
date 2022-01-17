@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "examplevuc:raw_syed_chunk"
+  },
+  "result": "examplevuc:syed_ingot",
+  "experience": 100.0,
+  "cookingtime": 100
+}

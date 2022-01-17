@@ -9,15 +9,19 @@ import net.minecraftforge.common.Tags;
 import net.minecraftforge.common.data.ExistingFileHelper;
 
 public class ExvucBlockTags extends BlockTagsProvider {
-    public ExvucBlockTags(DataGenerator generator, ExistingFileHelper helper) { super(generator, ExampleVuc.MODID, helper); }
+    public ExvucBlockTags(DataGenerator generator, ExistingFileHelper helper) {
+        super(generator, ExampleVuc.MODID, helper);
+    }
 
     @Override
     protected void addTags() {
         tag(BlockTags.MINEABLE_WITH_HOE)
-                .add(Registration.SYED_ORE.get());
+                .add(Registration.SYED_ORE_OVERWORLD.get());
         tag(BlockTags.NEEDS_DIAMOND_TOOL)
-                .add(Registration.SYED_ORE.get());
+                .add(Registration.SYED_ORE_OVERWORLD.get());
         tag(Tags.Blocks.ORES)
-                .add(Registration.SYED_ORE.get());
+                .add(Registration.SYED_ORE_OVERWORLD.get());
+        tag(Registration.SYED_ORE)
+                .add(Registration.SYED_ORE_OVERWORLD.get());
     }
 }

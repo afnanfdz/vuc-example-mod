@@ -1,4 +1,6 @@
 {
-  "block.examplevuc.syed_ore": "Syed Ore",
-  "itemGroup.VucExample": "Vuc's Syed Mod"
+  "block.examplevuc.syed_ore_overworld": "Syed Ore",
+  "item.examplevuc.raw_syed_chunk": "Syed Ore Chunk",
+  "item.examplevuc.syed_ingot": "Syed Ingot",
+  "itemGroup.examplevuc": "Vuc's Syed Mod"
 }

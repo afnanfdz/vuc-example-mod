@@ -13,6 +13,6 @@ public class ExvucBlockStates extends BlockStateProvider {
 
     @Override
     protected void registerStatesAndModels() {
-        simpleBlock(Registration.SYED_ORE.get());
+        simpleBlock(Registration.SYED_ORE_OVERWORLD.get());
     }
 }
